@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header class="header"><h2>Tic Tac Toe</h2></header> 
+    <div class="information1">
+        <span class="des">You:<span class="sky">X</span></span>
+    </div>
+    <div class="information2">
+        <span class="des">Computer:<span class="red">O</span></span>
+    </div>
+    <div id="result">
+        <span ></span>
+    </div> 
+    <div class="game">
+    <div class="container">
+    <div class="box bl bt" id="boxes" onclick="Check('0')" ><span class="text"></span></div>
+    <div class="box bt " id="boxes" onclick="Check('1')"><span class="text"></span></div>
+    <div class="box bt br" id="boxes" onclick="Check('2')"><span class="text"></span></div>
+    <div class="box bl" id="boxes" onclick="Check('3')"><span class="text"></span></div>
+    <div class="box" id="boxes" onclick="Check('4')"><span class="text"></span></div>
+    <div class="box br" id="boxes" onclick="Check('5')"><span class="text"></span></div>
+    <div class="box bl bb" id="boxes" onclick="Check('6')"><span class="text"></span></div>
+    <div class="box bb" id="boxes" onclick="Check('7')"><span class="text"></span></div>
+    <div class="box bb br" id="boxes" onclick="Check('8')"><span class="text"></span></div>
+    </div>
+    </div>
+    
+    <div class="btns">
+<button class="button-18"  id="reset" role="button"><span class="text">Replay</span></button>
+    </div>
+
+<script src="Tic_Tac_Toe.js"></script>
+</body>
+</html>
